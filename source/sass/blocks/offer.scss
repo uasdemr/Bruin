@@ -1,0 +1,142 @@
+.offer__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.offer__item {
+   background-color: #63d1bb;
+   transition: 0.4s;
+
+   &:hover {
+     transform: translateY(-5px) scaleY(1.1);
+
+     .offer__link {
+       transform: translateY(-5px);
+     }
+   }
+}
+
+.offer__item:last-child {
+   background-color: #56c3b2;
+}
+
+.offer__link {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0;
+  padding-left: 30px;
+  padding-right: 25px;
+  padding-top: 22px;
+  padding-bottom: 20px;
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: 0.4s;
+
+  &--interrior {
+    padding-right: 35px;
+  }
+}
+
+.navigation__text {
+  padding-bottom: 8px;
+}
+
+.offer__svg {
+  display: flex;
+  align-items: center;
+  font-size: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .offer__list {
+    display: flex;
+    background-color: #ffffff;
+  }
+
+  .offer__item {
+    width: 50%;
+    background-image: url("../img/zigzag-fill-desktop.png");
+    background-repeat: no-repeat;
+    background-position: right 0 bottom -1px;
+    background-color: #f9f9f9;
+
+    &:hover {
+      transform: translateY(-5px);
+
+      .offer__link {
+        background-position: right 0 bottom -6px;
+      }
+    }
+  }
+
+  .offer__item:last-child {
+    background-position: left 0 bottom -1px;
+    background-color: #f9f9f9;
+
+    &:hover {
+      .offer__link {
+        background-position: left 0 bottom -6px;
+      }
+    }
+  }
+
+  .offer__link {
+    width: auto;
+    padding-left: 36px;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    line-height: 28px;
+    letter-spacing: 0.7px;
+
+    &--interrior {
+      margin-left: 50px;
+      background-color: #63d1bb;
+      background-image: url("../img/zigzag-fill-desktop.png");
+      background-repeat: no-repeat;
+      background-position: right 0 bottom -1px;
+    }
+
+    &--toys {
+      margin-right: 50px;
+      background-color: #56c3b2;
+      background-image: url("../img/zigzag-fill-desktop.png");
+      background-repeat: no-repeat;
+      background-position: left 0 bottom -1px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .offer__item {
+    background-image: url("../img/bg-zigzag-fill.svg");
+    background-position: right 0 top 107%;
+    background-repeat: repeat-x;
+  }
+
+  .offer__item:last-child {
+    background-image: url("../img/bg-zigzag-fill.svg");
+    background-position: left 0 top 107%;
+    background-repeat: repeat-x;
+  }
+
+  .offer__link--interrior {
+    margin-left: 100px;
+    background-image: url("../img/bg-zigzag-fill.svg");
+    background-position: right 0 top 107%;
+    background-repeat: repeat-x;
+  }
+
+  .offer__link--toys {
+    margin-right: 100px;
+    background-image: url("../img/bg-zigzag-fill.svg");
+    background-position: left 0 top 107%;
+    background-repeat: repeat-x;
+  }
+}

@@ -1,0 +1,57 @@
+.send {
+  padding-top: 16px;
+  padding-bottom: 55px;
+}
+
+.send__text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  color: #444444;
+}
+
+.send__button {
+  width: 100%;
+  padding: 16px 0;
+  margin-top: 31px;
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+}
+
+@media (min-width: $tablet-width) {
+  .send {
+    padding-top: 51px;
+    padding-bottom: 50px;
+  }
+
+  .send__wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .send__button {
+    margin-top: 2px;
+    margin-right: auto;
+    flex: 0 0 230px;
+  }
+
+  .send__text {
+    font-size: 17px;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .send {
+    padding-top: 47px;
+  }
+  .send__wrapper {
+    width: 700px;
+    margin: 0 auto;
+  }
+}

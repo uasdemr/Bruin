@@ -1,0 +1,111 @@
+.acronym {
+  padding-top: 10px;
+}
+
+.acronym__name-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.acronym__name {
+  margin: 0;
+  padding-right: 25px;
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #63d1bb;
+}
+
+.acronym__line {
+  height: 1px;
+  width: 100%;
+  background-color: #63d1bb;
+}
+
+.acronym__input-wrapper {
+  padding-top: 29px;
+}
+
+.acronym__label {
+  margin-bottom: 22px;
+  display: flex;
+  flex-direction: column;
+}
+
+.acronym__text {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.acronym__input {
+  padding: 16px 0;
+  font-size: 17px;
+  line-height: 18px;
+  color: #444444;
+  border: none;
+  border-bottom: 2px solid #000000;
+  outline: none;
+}
+
+@media (min-width: $tablet-width) {
+  .acronym {
+    padding-top: 46px;
+    padding-bottom: 31px;
+  }
+
+  .acronym__wrapper {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .acronym__name-wrapper {
+    margin-top: 23px;
+    padding-left: 2px;
+    flex: 0 0 166px;
+  }
+
+  .acronym__line {
+    display: none;
+  }
+
+  .acronym__input-wrapper {
+    padding-top: 0;
+    flex: 1 1 auto;
+  }
+
+  .acronym__label {
+    margin-bottom: 19px;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .acronym__text {
+    font-size: 19px;
+  }
+
+  .acronym__input {
+    flex: 1 1 auto;
+    margin-left: 26px;
+    padding-left: 15px;
+    padding-bottom: 13px;
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .acronym {
+    padding-top: 45px;
+  }
+
+  .acronym__name-wrapper {
+    flex: 0 0 116px;
+    padding-left: 0;
+    margin-left: 60px;
+  }
+
+  .acronym__input-wrapper {
+    flex: 0 1 700px;
+  }
+}
