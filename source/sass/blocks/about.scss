@@ -23,7 +23,10 @@
   width: 55px;
   font-size: 0;
   text-align: center;
-  //background-color: #63d1bb;
+}
+
+.about__svg svg {
+  fill: #63d1bb;
 }
 
 .about__link {

@@ -42,9 +42,30 @@
   &--interrior {
     padding-right: 35px;
   }
+
+  svg[class*=icon] {
+    fill: #149080;
+    opacity: 0.5;
+  }
 }
 
-.navigation__text {
+.offer__link:hover {
+  svg[class*=icon] {
+    opacity: 0.7;
+  }
+}
+
+.offer__link:active {
+  .offer__text {
+    opacity: 0.3;
+  }
+
+  svg[class*=icon] {
+    opacity: 0.3;
+  }
+}
+
+.offer__text {
   padding-bottom: 8px;
 }
 
