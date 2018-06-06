@@ -137,27 +137,23 @@
 @media (min-width: $desktop-width) {
   .offer__item {
     background-image: url("../img/bg-zigzag-fill.svg");
-    background-position: right 0 top 107%;
     background-repeat: repeat-x;
   }
 
   .offer__item:last-child {
     background-image: url("../img/bg-zigzag-fill.svg");
-    background-position: left 0 top 107%;
     background-repeat: repeat-x;
   }
 
   .offer__link--interrior {
     margin-left: 100px;
     background-image: url("../img/bg-zigzag-fill.svg");
-    background-position: right 0 top 107%;
     background-repeat: repeat-x;
   }
 
   .offer__link--toys {
     margin-right: 100px;
     background-image: url("../img/bg-zigzag-fill.svg");
-    background-position: left 0 top 107%;
     background-repeat: repeat-x;
   }
 }
