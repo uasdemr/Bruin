@@ -60,13 +60,14 @@
 
 @media (min-width: $tablet-width) {
   .footer__wrapper {
-    padding-top: 55px;
+    padding-top: 51px;
     padding-bottom: 50px;
     display: flex;
     align-items: center;
   }
 
   .footer__logo {
+    padding-bottom: 2px;
     display: inline-block;
     font-size: 0;
     line-height: 0;
@@ -74,6 +75,7 @@
 
   .footer__list {
     padding: 0;
+    padding-top: 7px;
     margin-left: 160px;
     border-bottom: none;
     font-size: 0;
@@ -81,10 +83,12 @@
 
   .footer__copyright {
     padding: 0;
+    padding-top: 4px;
     margin-left: auto;
   }
+
   .footer__copyright-text {
-    margin-right: 23px;
+    margin-right: 29px;
   }
 }
 

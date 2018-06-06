@@ -246,7 +246,7 @@
 
     .navigation__svg {
       position: static;
-      height: 88px;
+      height: 87px;
       justify-content: center;
     }
   }
@@ -457,12 +457,14 @@
     width: auto;
     display: block;
     order: 6;
+    background-color: #fafafa;
   }
 
   .navigation__sales {
     width: auto;
     order: 7;
     display: block;
+    background-color: #fafafa;
   }
 
   .navigation__delivery {

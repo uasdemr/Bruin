@@ -1,5 +1,5 @@
 .radio {
-  padding-top: 23px;
+  padding-top: 25px;
 }
 
 .radio__name-wrapper {
@@ -24,7 +24,7 @@
 }
 
 .radio__label {
-  margin-top: 20px;
+  margin-top: 23px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -119,7 +119,7 @@ input[type="radio"]:disabled + .radio__indicator {
 
   .radio__label-wrapper {
     width: 100%;
-    margin-top: 56px;
+    margin-top: 57px;
   }
 
   .radio__label {
