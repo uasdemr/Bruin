@@ -1,6 +1,6 @@
 .catalog {
   margin-top: 30px;
-  padding-bottom: 55px;
+  padding-bottom: 60px;
 }
 
 .catalog__item {
@@ -49,7 +49,7 @@
 
 .catalog__description {
   padding: 0 28px;
-  padding-top: 25px;
+  padding-top: 28px;
   transition: 0.2s;
 }
 
@@ -62,7 +62,7 @@
 
 .catalog__param {
   margin: 0;
-  margin-top: 15px;
+  margin-top: 5px;
   padding-bottom: 20px;
   font-size: 13px;
   line-height: 30px;
@@ -71,7 +71,9 @@
 
 .catalog__price {
   margin: 0;
-  padding: 25px 0;
+  //padding: 25px 0;
+  padding-top: 20px;
+  padding-bottom: 27px;
   display: flex;
   align-items: center;
   font-size: 15px;
@@ -118,7 +120,7 @@
 
 .video__name {
   margin: 0;
-  padding: 20px 34px;
+  padding: 24px 34px;
   display: flex;
   align-items: center;
   font-size: 17px;
@@ -155,22 +157,22 @@
 }
 
 .video__description {
-  padding: 0 28px;
-  padding-top: 25px;
+  padding: 0 33px;
+  padding-top: 28px;
   padding-bottom: 30px;
 }
 
 .video__text {
   margin: 0;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
   font-size: 13px;
-  line-height: 30px;
+  line-height: 24px;
   color: #444444;
 }
 
 .video__button {
   display: block;
-  padding: 15px 24px;
+  padding: 16px 24px;
   font-size: 17px;
   line-height: 16px;
   font-weight: bold;
@@ -192,7 +194,8 @@
 
 @media (min-width: $tablet-width) {
   .catalog {
-    margin-top: 67px;
+    margin-top: 68px;
+    padding-bottom: 63px;
   }
 
   .catalog__item {
@@ -217,6 +220,7 @@
 
   .catalog__description {
     width: 100%;
+    padding-top: 25px;
     padding-left: 26px;
     padding-right: 31px;
     display: flex;
@@ -251,7 +255,7 @@
   }
 
   .video__name {
-    margin-top: 14px;
+    margin-top: 10px;
     padding-left: 40px;
     order: 2;
     font-size: 20px;
@@ -268,13 +272,16 @@
 
   .video__description {
     padding: 0 40px;
-    padding-top: 3px;
+    padding-top: 0;
     padding-bottom: 45px;
     order: 3;
   }
 
   .video__text {
+    margin-top: 4px;
     padding-bottom: 35px;
+    font-size: 15px;
+    line-height: 30px;
   }
 
   .video__button {
@@ -289,8 +296,8 @@
 
 @media (min-width: 1150px) {
   .catalog {
-    margin-top: 115px;
-    padding-bottom: 40px;
+    margin-top: 117px;
+    padding-bottom: 103px;
   }
 
   .catalog__wrapper {
@@ -356,7 +363,7 @@
     width: 288px;
     padding-left: 0;
     padding-right: 80px;
-    margin-top: 21px;
+    margin-top: 17px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -371,7 +378,7 @@
 
   .video__description {
     width: 288px;
-    margin-top: 8px;
+    margin-top: 5px;
     padding: 0;
     padding-right: 57px;
     margin-left: auto;
@@ -379,6 +386,6 @@
   }
 
   .video__button {
-    margin-top: 46px;
+    margin-top: 11px;
   }
 }

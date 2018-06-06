@@ -74,7 +74,7 @@
 
   .footer__list {
     padding: 0;
-    margin-left: 177px;
+    margin-left: 160px;
     border-bottom: none;
     font-size: 0;
   }
@@ -90,6 +90,10 @@
 
 @media (min-width: 1150px) {
   .footer__list {
-    margin-left: 368px;
+    margin-left: 352px;
+  }
+
+  .footer__copyright-text {
+    margin-right: 31px;
   }
 }

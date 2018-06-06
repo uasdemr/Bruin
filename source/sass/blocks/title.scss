@@ -13,7 +13,7 @@
   }
 
   &--other {
-    padding-top: 22px;
+    padding-top: 70px;
     padding-bottom: 75px;
     background-image: none;
   }
@@ -40,8 +40,9 @@
     }
 
     &--other {
+      padding-top: 22px;
+      padding-bottom: 91px;
       background-image: none;
-      padding-bottom: 92px;
     }
 
     br:first-child {
@@ -58,13 +59,21 @@
     }
 
     padding-bottom: 24px;
-    background-size: 1150px 30px;
-    background-position: left 0 bottom -1px;
+    //background-size: 1150px 30px;
+    //background-position: left 0 bottom -1px;
   }
 
   .title__text {
-    padding-top: 20px;
+    //padding-top: 20px;
     font-size: 53px;
     line-height: 57px;
+
+    &--index {
+      padding-bottom: 359px;
+    }
+
+    &--other {
+      padding-top: 19px;
+    }
   }
 }

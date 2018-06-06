@@ -8,17 +8,9 @@
    background-color: #63d1bb;
    transition: 0.4s;
 
-   &:hover {
-     transform: translateY(-5px) scaleY(1.1);
-
-     .offer__link {
-       transform: translateY(-5px);
-     }
-   }
-}
-
-.offer__item:last-child {
-   background-color: #56c3b2;
+  &:hover {
+   transform: translateY(-5px) scaleY(1.1);
+  }
 }
 
 .offer__link {
@@ -90,6 +82,7 @@
 
     &:hover {
       transform: translateY(-5px);
+      background-position: right 0 bottom -6px;
 
       .offer__link {
         background-position: right 0 bottom -6px;
@@ -102,6 +95,9 @@
     background-color: #f9f9f9;
 
     &:hover {
+      transform: translateY(-5px);
+      background-position: left 0 bottom -6px;
+
       .offer__link {
         background-position: left 0 bottom -6px;
       }
@@ -112,7 +108,7 @@
     width: auto;
     padding-left: 36px;
     padding-top: 30px;
-    padding-bottom: 45px;
+    padding-bottom: 36px;
     line-height: 28px;
     letter-spacing: 0.7px;
 
@@ -143,6 +139,10 @@
   .offer__item:last-child {
     background-image: url("../img/bg-zigzag-fill.svg");
     background-repeat: repeat-x;
+  }
+
+  .offer__link {
+    padding-bottom: 41px;
   }
 
   .offer__link--interrior {

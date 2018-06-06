@@ -115,13 +115,17 @@
   }
 
   .contacts__title {
-    padding-top: 23px;
+    padding-top: 27px;
     padding-bottom: 50px;
     font-size: 43px;
     line-height: 50px;
     background-image: url("../img/icon-flag.svg");
     background-repeat: no-repeat;
-    background-position: right 3px top 7px;
+    background-position: right 3px top 11px;
+  }
+
+  .contacts__table {
+    margin-top: 0;
   }
 
   .contacts__tbody {
@@ -183,9 +187,9 @@
     font-size: 53px;
     line-height: 57px;
     margin-right: 35px;
-    margin-top: 116px;
+    margin-top: 112px;
     text-align: right;
-    background-position: left 13px top 15px;
+    background-position: left 13px top 19px;
   }
 
   .contacts__table {
