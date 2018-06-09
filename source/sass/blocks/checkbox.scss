@@ -38,6 +38,20 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+
+  &:hover {
+    cursor: pointer;
+
+    .checkbox__indicator {
+      border-color: #62d1ba;
+    }
+  }
+
+  &:active {
+    .checkbox__indicator {
+      border-color: #c7c7c7;
+    }
+  }
 }
 
 .checkbox__input {
@@ -66,7 +80,7 @@
 }
 
 input[type="checkbox"]:checked + .checkbox__indicator {
-  border-color: #000000;
+  //border-color: #000000;
 
   // &:hover {
   //   border-color: #000000;
