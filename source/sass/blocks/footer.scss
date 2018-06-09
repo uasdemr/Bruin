@@ -36,6 +36,14 @@
 
 .footer__svg {
   display: inline-block;
+
+  svg[class*=footer]:hover {
+    fill: rgba(70, 193, 174, 1);
+  }
+
+  svg[class*=footer]:active {
+    fill: rgba(70, 193, 174, 0.3);
+  }
 }
 
 .footer__copyright {
@@ -50,6 +58,20 @@
   font-size: 0;
   text-decoration: none;
   color: #000000;
+
+  svg[class*=footer] {
+    fill: rgba(99, 209, 187, 1);
+  }
+
+  &:hover {
+    svg[class*=footer] {
+      fill: rgba(70, 193, 174, 1);
+    }
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .footer__copyright-text {
@@ -71,6 +93,14 @@
     display: inline-block;
     font-size: 0;
     line-height: 0;
+
+    &:hover {
+      fill: rgba(70, 193, 174, 1);
+    }
+
+    &:active {
+      fill: rgba(70, 193, 174, 0.3);
+    }
   }
 
   .footer__list {
